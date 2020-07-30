@@ -13,8 +13,6 @@
 		DDC847C024D0C4C700908784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC847BE24D0C4C700908784 /* Main.storyboard */; };
 		DDC847C224D0C4CA00908784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC847C124D0C4CA00908784 /* Assets.xcassets */; };
 		DDC847C524D0C4CA00908784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC847C324D0C4CA00908784 /* LaunchScreen.storyboard */; };
-		DDC847D024D0C4CA00908784 /* Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC847CF24D0C4CA00908784 /* Tip_CalculatorTests.swift */; };
-		DDC847DB24D0C4CA00908784 /* Tip_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC847DA24D0C4CA00908784 /* Tip_CalculatorUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,7 @@
 		DDC847C424D0C4CA00908784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDC847C624D0C4CA00908784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC847CB24D0C4CA00908784 /* Tip CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDC847CF24D0C4CA00908784 /* Tip_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorTests.swift; sourceTree = "<group>"; };
-		DDC847D124D0C4CA00908784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC847D624D0C4CA00908784 /* Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDC847DA24D0C4CA00908784 /* Tip_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorUITests.swift; sourceTree = "<group>"; };
-		DDC847DC24D0C4CA00908784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				DDC847B724D0C4C600908784 /* Tip Calculator */,
-				DDC847CE24D0C4CA00908784 /* Tip CalculatorTests */,
-				DDC847D924D0C4CA00908784 /* Tip CalculatorUITests */,
 				DDC847B624D0C4C600908784 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				DDC847C624D0C4CA00908784 /* Info.plist */,
 			);
 			path = "Tip Calculator";
-			sourceTree = "<group>";
-		};
-		DDC847CE24D0C4CA00908784 /* Tip CalculatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				DDC847CF24D0C4CA00908784 /* Tip_CalculatorTests.swift */,
-				DDC847D124D0C4CA00908784 /* Info.plist */,
-			);
-			path = "Tip CalculatorTests";
-			sourceTree = "<group>";
-		};
-		DDC847D924D0C4CA00908784 /* Tip CalculatorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DDC847DA24D0C4CA00908784 /* Tip_CalculatorUITests.swift */,
-				DDC847DC24D0C4CA00908784 /* Info.plist */,
-			);
-			path = "Tip CalculatorUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC847D024D0C4CA00908784 /* Tip_CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC847DB24D0C4CA00908784 /* Tip_CalculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
