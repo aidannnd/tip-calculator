@@ -13,6 +13,7 @@
 		DDC847C024D0C4C700908784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC847BE24D0C4C700908784 /* Main.storyboard */; };
 		DDC847C224D0C4CA00908784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC847C124D0C4CA00908784 /* Assets.xcassets */; };
 		DDC847C524D0C4CA00908784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC847C324D0C4CA00908784 /* LaunchScreen.storyboard */; };
+		DDDBDD3E24D3A40B00AB3B4D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDBDD3D24D3A40B00AB3B4D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		DDC847C624D0C4CA00908784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC847CB24D0C4CA00908784 /* Tip CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC847D624D0C4CA00908784 /* Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDBDD3D24D3A40B00AB3B4D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				DDC847C124D0C4CA00908784 /* Assets.xcassets */,
 				DDC847C324D0C4CA00908784 /* LaunchScreen.storyboard */,
 				DDC847C624D0C4CA00908784 /* Info.plist */,
+				DDDBDD3D24D3A40B00AB3B4D /* SettingsViewController.swift */,
 			);
 			path = "Tip Calculator";
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				DDC847BD24D0C4C600908784 /* ViewController.swift in Sources */,
 				DDC847B924D0C4C600908784 /* AppDelegate.swift in Sources */,
 				DDC847BB24D0C4C600908784 /* SceneDelegate.swift in Sources */,
+				DDDBDD3E24D3A40B00AB3B4D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
