@@ -4,8 +4,6 @@ A tip calculator application for iOS.
 
 Submitted by: Aidan Delfuoco
 
-Time spent: 4 hours spent in total
-
 ## User Stories
 
 The following **required** functionality is complete:
