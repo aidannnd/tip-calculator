@@ -2,8 +2,6 @@
 
 A tip calculator application for iOS.
 
-Submitted by: Aidan Delfuoco
-
 ## User Stories
 
 The following **required** functionality is complete:
